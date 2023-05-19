@@ -3,4 +3,5 @@ This Json Web Token Authentication system is implemented using Spring Boot and J
 # How it works
 The authorized urls are /api/v1/auth/register and /api/v1/auth/authenticate. The register/login page sends with a POST request a Json containing the credentials. The server generates a token and writes it on user's cookies (httpOnly & Secure so that they cannot be accessed/modified by JavaScript). The token comes along with every http request performed by the browser. The server is able to check if the token is valid/expired or not, and decide whether to let user access specific data or not. 
 
-![jwt](https://github.com/ilagomatis/security-jwt-implementation/assets/78209098/665f0157-837c-4370-aef6-ccce5dbed712)
+![jwt2](https://github.com/ilagomatis/security-jwt-implementation/assets/78209098/2d2463a1-8b58-414e-8308-2cc07ef892ab)
+
