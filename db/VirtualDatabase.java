@@ -7,12 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VirtualDatabase {
-    private static ArrayList<User> db = new ArrayList(
-            List.of(
-                  new User(0, "ilagomatis@mail.com", "123", "Ilias", "Lagomatis", Role.USER),
-                  new User(1, "amallikopoulou@mail.com", "123", "Anastasia", "Mallikopoulou", Role.USER)
-            )
-    );
+    private static ArrayList<User> db = new ArrayList();
     public static void addUser(User user){
         db.add(user);
     }
