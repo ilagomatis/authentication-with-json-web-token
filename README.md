@@ -9,15 +9,15 @@ The authorized urls are /api/v1/auth/register and /api/v1/auth/authenticate. The
 
 ## auth
 
-  *AuthenticationController
+  * AuthenticationController
   
-  *AuthenticationRequest.java
+  * AuthenticationRequest.java
   
-  *AuthenticationResponse.java
+  * AuthenticationResponse.java
   
-  *AuthenticationService.java
+  * AuthenticationService.java
   
-  *RegisterRequest.java
+  * RegisterRequest.java
   
 
 ## config
