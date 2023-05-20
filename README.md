@@ -6,11 +6,11 @@ The authorized urls are **/api/v1/auth/register** and **/api/v1/auth/authenticat
 ![jwt](https://github.com/ilagomatis/security-jwt-implementation/assets/78209098/d713d14e-cf6b-4b59-90c4-7de6182ada8e)
 
 # About JSON Web Tokens
-JWT is an open standard used to share security information. Each JWT contains encoded JSON objects, including a set of claims. As we can see on the image below:
+JWT is an open standard used to share security information. Each JWT contains encoded **JSON objects**, including a set of claims. As we can see on the image below,
 
 ![image](https://github.com/ilagomatis/security-jwt-implementation/assets/78209098/a9188ec6-ba35-4216-bdba-fed5bb81580b)
 
-So, using JWT, we are able to provide an elegant and secure way to authenticate users.
+JWTs are signed using a **cryptographic algorithm** to ensure that the content of the token is hidden, but can be read by the server using the secret key. So, using JWT, we are able to provide an elegant and secure way to **authenticate users**.
 
 # Packages
 
