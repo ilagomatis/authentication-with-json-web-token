@@ -57,7 +57,7 @@ Contains:
 
 ## api
 
-Contains:
+Contains exapmles on how a real request could be done with **JavaScript**, taking the input by an **html form**
 
 * **register.js**
   - simulates a form that the users can give their info to register. Using axios.js, we send the object on server and redirect on main page
