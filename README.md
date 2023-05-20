@@ -37,7 +37,13 @@ Contains:
 
 * **ApplicationConfig.java**
   - the connection of the app with the storage (here, we define the way that our app communcates with the database - in real world apps the communication would be done with a repository, not a virtual db)
+  
 * **JwtAuthenticationFilter.java**
+  - the method that is performed whenever a request reaches a non-authorized url, to tell if the user i authenticated or not
+  
 * **JwtService.java**
-* **SecurityConfiguration.java**
+  - methods needed to create/read tokens and extract the username
 
+
+* **SecurityConfiguration.java**
+  - configurations about the security (eg we define the authorized urls)
