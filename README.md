@@ -54,3 +54,13 @@ Contains:
 
 * **SecurityConfiguration.java**
   - configurations about the security (eg we define the authorized urls)
+
+## api
+
+Contains:
+
+* **register.js**
+  - simulates a form that the users can give their info to register. Using axios.js, we send the object on server and redirect on main page
+
+* **login.js**
+  - simulates a form that the users can give their credentials to authenticate/login 
