@@ -5,6 +5,8 @@ The authorized urls are **/api/v1/auth/register** and **/api/v1/auth/authenticat
 
 ![jwt](https://github.com/ilagomatis/security-jwt-implementation/assets/78209098/d713d14e-cf6b-4b59-90c4-7de6182ada8e)
 
+# About JSON Web Tokens
+
 # Packages
 
 ## auth
