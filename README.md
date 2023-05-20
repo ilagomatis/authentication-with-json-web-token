@@ -33,4 +33,11 @@ Contains:
 
 ## config
 
+Contains:
+
+* **ApplicationConfig.java**
+  - the connection of the app with the storage (here, we define the way that our app communcates with the database - in real world apps the communication would be done with a repository, not a virtual db)
+* **JwtAuthenticationFilter.java**
+* **JwtService.java**
+* **SecurityConfiguration.java**
 
