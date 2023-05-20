@@ -7,7 +7,7 @@ endpoint '/api/v1/auth/register'
 
 */ 
 
-let loginButton = document.getElementById("submitButton");
+let registerButton = document.getElementById("submitButton");
 
 let emailField = document.getElementById("email");
 
@@ -17,7 +17,7 @@ let firstnameField = document.getElementById("firstname");
 
 let lastnameField = document.getElementById("lastname");
 
-loginButton.addEventListener("click", function(){
+registerButton.addEventListener("click", function(){
     let email = emailField.value;
     let password = passwordField.value;
     let firstname = firstnameField.value;
@@ -31,7 +31,7 @@ loginButton.addEventListener("click", function(){
             firstname: firstname,
             lastname: lastname
         };
-        
+
         axios.post('/api/v1/auth/register', json)
             .then(function (response) {
                 console.log(response);
