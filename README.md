@@ -10,23 +10,23 @@ The authorized urls are **/api/v1/auth/register** and **/api/v1/auth/authenticat
 ## auth
 Contains:
 
-  * AuthenticationController
+  * **AuthenticationController**
     - the endpoints that respond to the requests
 
 
-  * AuthenticationRequest.java
+  * **AuthenticationRequest.java**
     - the format of json needed for authentication (email & password) 
 
 
-  * AuthenticationResponse.java
+  * **AuthenticationResponse.java**
     - an object of this class contains the token that will be written on browser's cookies
 
 
-  * AuthenticationService.java
+  * **AuthenticationService.java**
     - implementations for registration/authentication
 
 
-  * RegisterRequest.java
+  * **RegisterRequest.java**
     - the format of json that we need to perform registration (email, password, firstname, lastname)
 
 
