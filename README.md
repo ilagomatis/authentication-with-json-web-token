@@ -23,7 +23,7 @@ Contains:
 
 
   * **AuthenticationService.java**
-    - implementations for registration/authentication
+    - methods that implement registration/authentication
 
 
   * **RegisterRequest.java**
