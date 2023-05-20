@@ -22,7 +22,7 @@ Contains:
 
 
   * **AuthenticationRequest.java**
-    - the format of json needed for authentication (email & password) 
+    - the format of json needed as input for authentication (email & password) 
 
 
   * **AuthenticationResponse.java**
@@ -43,10 +43,10 @@ Contains:
 Contains:
 
 * **ApplicationConfig.java**
-  - the connection of the app with the storage (here, we define the way that our app communcates with the database - in real world apps the communication would be done with a repository, not a virtual db)
+  - describes the connection of the app with the storage (here, we define the way that our app communcates with the database - in real world apps the communication would be done with a repository, not a virtual db)
   
 * **JwtAuthenticationFilter.java**
-  - the method that is performed whenever a request reaches a non-authorized url, to tell if the user i authenticated or not
+  - the method that is performed whenever a request reaches a non-authorized url, to tell if the user is authenticated or not
   
 * **JwtService.java**
   - methods needed to create/read tokens and extract the username
