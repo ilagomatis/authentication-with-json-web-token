@@ -35,7 +35,7 @@ public class MainPageController {
             if (jwtService.isTokenValid(token, userDetails)) {
                 // access database to get info about the user
                 // and return main page
-                return "Valid token: " + userEmail;
+                // return <user's page> ;
 
             } else {
                 // return home page
